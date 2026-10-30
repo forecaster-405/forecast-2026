@@ -9,7 +9,7 @@ window.SITE_CONFIG = {
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "",
+  forecaster_name: "forecaster-405",
 
   // One short line under the name (optional).
   tagline: "",
@@ -25,8 +25,8 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+    "I used a model for the national environment based on presidential approval and past midterm election performance. I then combined this model's prediction with a generic ballot polling average.",
+    "My race level model for each House and Senate race added district incumbency and spending data for candidates where available. This was combined with Nate Silver's race-level polling averages where available."
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
